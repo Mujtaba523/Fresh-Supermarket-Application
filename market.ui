@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-1</y>
+     <width>1200</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(233, 203, 193, 255), stop:1 rgba(100, 111, 164, 255));</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>211</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/1x/Asset 3.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>830</y>
+      <width>1201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/1x/Asset 5.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>120</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/Asset 5.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow1">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>350</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow1{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow1:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow1:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>120</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/2x/Products/1x/Asset 4.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>350</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow2{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow2:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow2:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="searchbar">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>30</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+font: 16pt&quot;Times New Roman&quot;;
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Search...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Search">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>30</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Search{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#Search:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#Search:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>UI Icons/pngfind.com-search-logo-png-6694830.png</normaloff>UI Icons/pngfind.com-search-logo-png-6694830.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>35</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>120</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/Asset 6.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow3">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>350</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow3{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow3:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow3:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>120</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/Asset 7.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow4">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>350</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow4{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow4:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow4:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>430</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/Asset 8.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>660</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow5{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow5:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow5:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>430</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/Asset 10.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow6">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>660</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow6{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow6:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow6:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>430</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/Asset 11.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow7">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>660</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow7{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow7:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow7:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>430</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/Asset 12.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow8">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>660</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow8{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow8:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow8:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>120</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/Asset 14.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow9">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>350</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow9{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow9:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow9:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>430</y>
+      <width>171</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>UI Icons/1x/Asset 15.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BuyNow10">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>660</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat Bold</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BuyNow10{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(0, 4, 40, 255), stop:1 rgba(0, 78, 146, 255));}
+QPushButton#BuyNow10:hover{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba(50, 4, 40, 255), stop:1 rgba(70, 78, 146, 255));}
+QPushButton#BuyNow10:pressed{
+	border-radius:20px;
+	color: rgb(255, 255, 255);
+	font: 16pt &quot;Montserrat Bold&quot;;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 			rgba9(90, 200, 60, 60), stop:1 rgba(120, 78, 160, 50));}</string>
+    </property>
+    <property name="text">
+     <string>Buy Now</string>
+    </property>
+   </widget>
+   <zorder>Search</zorder>
+   <zorder>label</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>BuyNow1</zorder>
+   <zorder>label_6</zorder>
+   <zorder>BuyNow2</zorder>
+   <zorder>searchbar</zorder>
+   <zorder>label_7</zorder>
+   <zorder>BuyNow3</zorder>
+   <zorder>label_8</zorder>
+   <zorder>BuyNow4</zorder>
+   <zorder>label_9</zorder>
+   <zorder>BuyNow5</zorder>
+   <zorder>label_10</zorder>
+   <zorder>BuyNow6</zorder>
+   <zorder>label_11</zorder>
+   <zorder>BuyNow7</zorder>
+   <zorder>label_12</zorder>
+   <zorder>BuyNow8</zorder>
+   <zorder>label_13</zorder>
+   <zorder>BuyNow9</zorder>
+   <zorder>label_14</zorder>
+   <zorder>BuyNow10</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
